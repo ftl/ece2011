@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<!DOCTYPE testreport PUBLIC "-//Elektrobit Automotive GmbH//DTD Testreport 1.0//EN" "../testreport-plugin/testreport.dtd">
+<testreport>
+  <testcase>
+    <description>
+      <p>Create a new document.</p>
+    </description>
+    <steps>
+      <step>
+        <p>Select 
+        <menupath><menuitem>File</menuitem><menuitem>New</menuitem><menuitem>XML 
+        Authoring</menuitem><menuitem>Document</menuitem></menupath></p>
+      </step>
+      <step>
+        <p>Select a document type and the root element</p>
+      </step>
+      <step>
+        <p>Press <button>Finish</button></p>
+      </step>
+    </steps>
+    <result>
+      <description>
+        <p>No findings.</p>
+      </description>
+      <passed/>
+    </result>
+  </testcase>
+  <testcase>
+    <description>
+      <p>Open a document.</p>
+    </description>
+    <steps>
+      <step>
+        <p>Select <menupath><menuitem>File</menuitem><menuitem>Open 
+        File...</menuitem></menupath></p>
+      </step>
+      <step>
+        <p>Choose a file from the file selection dialog.</p>
+      </step>
+      <step>
+        <p>Press <button>Open</button></p>
+      </step>
+    </steps>
+    <result>
+      <description>
+        <p>No file selection dialog appears.</p>
+      </description>
+      <failed/>
+    </result>
+  </testcase>
+</testreport>

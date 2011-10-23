@@ -1,0 +1,25 @@
+<!-- PUBLIC -//Elektrobit Automotive GmbH//DTD Testreport 1.0//EN -->
+
+<!-- entities -->
+<!ENTITY % inline "#PCDATA|b|i" >
+<!ENTITY % semantic "menupath|button" >
+
+<!-- structure -->
+<!ELEMENT testreport (testcase*) >
+<!ELEMENT testcase (description, steps, result) >
+<!ELEMENT description (p*) >
+<!ELEMENT steps (step+) >
+<!ELEMENT step (p*) >
+<!ELEMENT result (description, (passed|failed)) >
+<!ELEMENT failed EMPTY >
+<!ELEMENT passed EMPTY >
+
+<!-- paragraphs and inline elements -->
+<!ELEMENT p (%inline;|%semantic;)* >
+<!ELEMENT b (%inline;)* >
+<!ELEMENT i (%inline;)* >
+
+<!-- semantic inline elements -->
+<!ELEMENT menupath (menuitem*) >
+<!ELEMENT menuitem (#PCDATA)* >
+<!ELEMENT button (#PCDATA)* >

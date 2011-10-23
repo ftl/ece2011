@@ -1,0 +1,103 @@
+* {
+	font-family: 'Arial',sans-serif;
+	display: block;
+	font-size: 12pt;
+}
+
+testreport:before {
+	display: block;
+	content: "Test Report";
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+testcase:before {
+	display: block;
+	content: "Test Case";
+	font-family: 'Cambria','Arial',sans-serif;
+	font-size: large;
+	font-weight: bold;
+	background-color: #c1c1ff;
+}
+
+testcase {
+	border: solid;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 10px;
+}
+
+description {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+steps:before {
+	display: block;
+	content: "Steps";
+	font-weight: bold;
+}
+	
+steps {
+	margin-bottom: 10px;
+}
+
+step {
+	display: list-item;
+  	margin-left: 2em; /* to display list bullet */
+  	list-style-type: decimal;
+}
+
+result:before {
+	display: block;
+	content: "Result";
+	font-weight: bold;
+}
+
+failed:before {
+	display: block;
+	content: "FAILED";
+	background-color: red;
+	font-weight: bold;
+}
+
+passed:before {
+	display: block;
+	content: "PASSED";
+	background-color: green;
+	font-color: white;
+	font-weight: bold;
+}
+
+p {
+}
+
+b {
+	display: inline;
+	font-weight: bold;
+}
+
+i {
+	display: inline;
+	font-style: italic;
+}
+
+menupath {
+	display: inline;
+	font-family: 'Courier',monospace;
+}
+
+menuitem {
+	display: inline;
+}
+
+button {
+	display: inline;
+	background-color: #D1D1D1;
+	font-style: italc;
+	border: solid;
+}
