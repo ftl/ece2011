@@ -1,0 +1,6 @@
+h1. Writing In Textile
+
+This is a sample document that uses Textile as markup language. The WYSIWikiText editor can open this file in a more readable and eye-friendly way:
+* The markup is not visible.
+* The formatting can be defined using CSS.
+ 
