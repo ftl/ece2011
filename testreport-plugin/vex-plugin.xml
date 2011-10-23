@@ -12,7 +12,7 @@
   <extension id="id2"
              point="org.eclipse.wst.xml.vex.ui.styles"
              name="Default">
-    <style css="file:/E:/tmp/ece-workspace/testreport-plugin/testreport.css">
+    <style css="testreport.css">
       <doctypeRef publicId="-//Elektrobit Automotive GmbH//DTD Testreport 1.0//EN">
       </doctypeRef>
     </style>
