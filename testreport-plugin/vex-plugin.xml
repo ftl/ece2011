@@ -12,7 +12,23 @@
   <extension id="id2"
              point="org.eclipse.wst.xml.vex.ui.styles"
              name="Default">
-    <style css="testreport.css">
+    <style css="file:/C:/Users/MadVortrag/git/ftl/ece2011/testreport-plugin/testreport.css">
+      <doctypeRef publicId="-//Elektrobit Automotive GmbH//DTD Testreport 1.0//EN">
+      </doctypeRef>
+    </style>
+  </extension>
+  <extension id="id3"
+             point="org.eclipse.wst.xml.vex.ui.styles"
+             name="Pessimistic">
+    <style css="file:/C:/Users/MadVortrag/git/ftl/ece2011/testreport-plugin/pessimistic.css">
+      <doctypeRef publicId="-//Elektrobit Automotive GmbH//DTD Testreport 1.0//EN">
+      </doctypeRef>
+    </style>
+  </extension>
+  <extension id="id4"
+             point="org.eclipse.wst.xml.vex.ui.styles"
+             name="Optimistic">
+    <style css="file:/C:/Users/MadVortrag/git/ftl/ece2011/testreport-plugin/optimistic.css">
       <doctypeRef publicId="-//Elektrobit Automotive GmbH//DTD Testreport 1.0//EN">
       </doctypeRef>
     </style>
